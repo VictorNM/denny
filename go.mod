@@ -15,7 +15,7 @@ require (
 	github.com/go-redis/redis v6.15.8+incompatible
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/protobuf v1.4.1
-	github.com/google/uuid v1.1.1 // indirect
+	github.com/google/uuid v1.1.1
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
 	github.com/hashicorp/hcl v1.0.0
 	github.com/imdario/mergo v0.3.8
@@ -23,7 +23,7 @@ require (
 	github.com/sirupsen/logrus v1.4.2
 	github.com/soheilhy/cmux v0.1.4
 	github.com/stretchr/testify v1.4.0
-	github.com/uber/jaeger-client-go v2.20.1+incompatible // indirect
+	github.com/uber/jaeger-client-go v2.20.1+incompatible
 	github.com/uber/jaeger-lib v2.2.0+incompatible // indirect
 	go.etcd.io/etcd v3.3.22+incompatible
 	go.uber.org/zap v1.13.0 // indirect

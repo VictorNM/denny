@@ -5,10 +5,10 @@ import (
 	"github.com/uber/jaeger-client-go"
 	zk "github.com/uber/jaeger-client-go/transport/zipkin"
 	"github.com/uber/jaeger-client-go/zipkin"
-	"github.com/whatvn/denny/middleware/ot"
+	"github.com/whatvn/denny/middleware/http/ot"
 
 	"github.com/whatvn/denny"
-	"github.com/whatvn/denny/middleware"
+	middleware "github.com/whatvn/denny/middleware/http"
 )
 
 type zController struct {
