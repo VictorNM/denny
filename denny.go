@@ -118,6 +118,14 @@ func (r *Denny) Controller(path string, method HttpMethod, ctl controller) *Denn
 	return r
 }
 
+func (r *Denny) GinHandle(path string, method HttpMethod, h gin.HandlerFunc) *Denny {
+	return r.Controller(path, method, WrapGin(h))
+}
+
+func (r *Denny) HTTPHandle(path string, method HttpMethod, h http.Handler) *Denny {
+	return r.Controller(path, method, WrapH(h))
+}
+
 // NewGroup adds new group into server routes
 func (r *Denny) NewGroup(path string) *group {
 	r.Lock()

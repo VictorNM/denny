@@ -26,6 +26,14 @@ func main() {
 
 	server.Controller("wraph", http.MethodGet, denny.WrapH(&handler{}))
 
+	server.GinHandle("ginhandle", http.MethodGet, func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"hello": "wrap gin.HandlerFunc",
+		})
+	})
+
+	server.HTTPHandle("httphandle", http.MethodGet, &handler{})
+
 	if err := server.GraceFulStart(":8080"); err != nil {
 		log.Fatal(err)
 	}

@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c175ad7-21ff-4e31-9bdb-c23e5d706977" name="Default Changelist" comment="turn off">
-      <change afterPath="$PROJECT_DIR$/example/wrap.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/denny.go" beforeDir="false" afterPath="$PROJECT_DIR$/denny.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/wrap.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/wrap.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
